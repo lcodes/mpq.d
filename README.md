@@ -8,16 +8,16 @@ Currently, the version 0.1 mpq.d can only extract files with zlib compression.
 
 It's usage is quite simple:
 
-    ```D
-    import mpq;
-    import std.stdio;
+```D
+import mpq;
+import std.stdio;
 
-    void main() {
-        auto archive = new MpqArchive("/path/to/file.mpq"); // Open the MPQ archive.
-        auto listfile = archive.openFile("(listfile)");     // Open the special listfile.
-        writeln(cast(string) listfile.read());              // Read it into standard output.
-    }
-    ```
+void main() {
+    auto archive = new MpqArchive("/path/to/file.mpq"); // Open the MPQ archive.
+    auto listfile = archive.openFile("(listfile)");     // Open the special listfile.
+    writeln(cast(string) listfile.read());              // Read it into standard output.
+}
+```
 
 
 License

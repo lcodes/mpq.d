@@ -1,0 +1,40 @@
+# -*- mode: Shell-script; tab-width: 4; fill-column: 80; -*-
+
+# Reference: https://github.com/github/gitignore
+
+
+# Emacs
+# =====
+
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+
+# OSX
+# ===
+
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-v100
+.Trashes
+
+
+# Windows
+# =======
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
